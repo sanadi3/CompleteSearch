@@ -19,11 +19,3 @@ This Java program solves a variant of the Peg Solitaire game. It recursively sea
     A solution is better if fewer pegs remain, or the same number with fewer moves.
 
   # Technicality: State Management
-
-    Uses two stacks:
-    Stack<String[][]> stackBoard to track board history.
-    Stack<int[]> stackCounters to track [movesTaken, ballsLeft] at each step.
-    Enables full backtracking after exploring each recursive branch.
-
-
-    
